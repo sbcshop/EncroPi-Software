@@ -4,6 +4,9 @@
 
 <img src ="https://github.com/sbcshop/EncroPi/blob/main/images/EncroPi.png" />
 
+* To open these files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
+*  https://thonny.org/
+
 ### For setup the Board in thonny </b>
 * Now connect USB Cable on USB Port of Pico.
 * Open Thonny IDE and Choose interpreter as MicroPython (Raspberry Pi pico).
