@@ -21,7 +21,8 @@ Just like USB 2.0 user can also debug programmes via type-cable and can be used 
 The onboard boot button is provided for uploading the firmware into RP2040 of EncroPi. Status is connected on GPIO-15 and it's fully  user configurable. Power LED is for indicating power.
 
 ### Additional GPIO's
-
+In this baord we are providing some extra GOIO pins for connecting any external Input/output(such as sensors) to RP2040 of EncroPi board.
+These GPIO's are 5v, GND, 3v, GP4, GP3, GP14, GP15.
 
 * To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
 *  https://thonny.org/
