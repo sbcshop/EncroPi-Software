@@ -24,8 +24,8 @@ The onboard boot button is provided for uploading the firmware into RP2040 of En
 In this board we are providing some extra GPIO pins for connecting any external Input/output(such as sensors) to RP2040 of EncroPi board.
 These GPIO's are 5v, GND, 3v, GP4, GP3, GP14, GP15.
 
-* **To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
-* **https://thonny.org/
+* *** To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
+* ** https://thonny.org/
 
 ### For setup the Board in thonny </b>
 * Now connect USB Cable on USB Port of Pico.
