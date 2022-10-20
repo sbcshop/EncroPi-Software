@@ -23,6 +23,13 @@ The onboard boot button is provided for uploading the firmware into RP2040 of En
 ### Additional GPIO's
 In this board we are providing some extra GPIO pins for connecting any external Input/output(such as sensors) to RP2040 of EncroPi board.
 These GPIO's are 5v, GND, 3v, GP4, GP3, GP14, GP15.
+
+## Features Of EncroPi
+
+EncropPi is loaded with many feature some of them are, Read/ Write, Data Encryption, Data Logger, Real Time Clock(RTC), etc. 
+#### Encryption:
+ 
+
 ## Uploading Firmware 
 * Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded firmware by drag and drop method. Now, your board has updated firmware in it.
 
