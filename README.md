@@ -26,7 +26,9 @@ These GPIO's are 5v, GND, 3v, GP4, GP3, GP14, GP15.
 
 ## Features Of EncroPi
 
-EncropPi is loaded with many feature some of them are, Read/ Write, Data Encryption, Data Logger, Real Time Clock(RTC), etc. 
+EncropPi has many powerful and advance features wich will help users in many Projects. Some of the key features of EncroPi are:
+Data Read/Write, Data Encryption, Data Logger, Real Time Clock(RTC), etc.
+
 #### Encryption:
  Now encrypt the data which you run on your USB RTC. Make use of EncroPi as an encrypted key and secure your codes and application sources.
  
