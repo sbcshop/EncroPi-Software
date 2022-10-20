@@ -28,7 +28,39 @@ These GPIO's are 5v, GND, 3v, GP4, GP3, GP14, GP15.
 
 EncropPi is loaded with many feature some of them are, Read/ Write, Data Encryption, Data Logger, Real Time Clock(RTC), etc. 
 #### Encryption:
+ Now encrypt the data which you run on your USB RTC. Make use of EncroPi as an encrypted key and secure your codes and application sources.
  
+ classcryptolib.aes¶
+classmethod__init__(key, mode[, IV])¶
+Initialize cipher object, suitable for encryption/decryption. Note: after initialization, cipher object can be use only either for encryption or decryption. Running decrypt() operation after encrypt() or vice versa is not supported.
+
+Parameters are:
+
+key is an encryption/decryption key (bytes-like).
+
+mode is:
+
+1 (or cryptolib.MODE_ECB if it exists) for Electronic Code Book (ECB).
+
+2 (or cryptolib.MODE_CBC if it exists) for Cipher Block Chaining (CBC).
+
+6 (or cryptolib.MODE_CTR if it exists) for Counter mode (CTR).
+
+IV is an initialization vector for CBC mode.
+
+For Counter mode, IV is the initial value for the counter.
+
+encrypt(in_buf[, out_buf])¶
+Encrypt in_buf. If no out_buf is given result is returned as a newly allocated bytes object. Otherwise, result is written into mutable buffer out_buf. in_buf and out_buf can also refer to the same mutable buffer, in which case data is encrypted in-place.
+
+decrypt(in_buf[, out_buf])¶
+Like encrypt(), but for decryption.
+
+#### Data Logger:
+No more worries about losing your data or loading it over and over again every time. EncroPi has a dedicated SD card slot to store your data safely.
+
+#### RTC:
+Real-time for your personal computers, embedded systems, servers, or any electronic device that may require accurate time keeping
 
 ## Uploading Firmware 
 * Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded firmware by drag and drop method. Now, your board has updated firmware in it.
