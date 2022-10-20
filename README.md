@@ -15,7 +15,7 @@ It is provided for holding the power backup battery For keeping time. It holds a
 ### LCD Display
 The 1.14-inch LCD has a resolution of 240x135 pixels for showing date and time or other data the user wants to show on the Display of  EncroPi.
 ### USB Type-C Port 
-Just like USB 2.0 user can also debug programmes via type-cable and can be used for power-up EncroPi
+Just like USB 2.0 user can also debug programmes via type-cable and can be used for power-up EncroPi via C-type USB cable.
 
 ### Boot Button, Status LED and Power LED
 The onboard boot button is provided for uploading the firmware into RP2040 of EncroPi. Status is connected on GPIO-15 and it's fully  user configurable. Power LED is for indicating power.
