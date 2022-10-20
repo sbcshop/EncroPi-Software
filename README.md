@@ -51,7 +51,7 @@ IV is an initialization vector for CBC mode.
 For Counter mode, IV is the initial value for the counter.
 
 encrypt(in_buf[, out_buf])¶
-Encrypt in_buf. If no out_buf is given result is returned as a newly allocated bytes object. Otherwise, result is written into mutable buffer out_buf. in_buf and out_buf can also refer to the same mutable buffer, in which case data is encrypted in-place.
+Encrypt in_buf. If no out_buf is given, the result is returned as a newly allocated bytes object. Otherwise, the result is written into mutable buffer out_buf. in_buf and out_buf can also refer to the same mutable buffer, in which case data is encrypted in-place.
 
 decrypt(in_buf[, out_buf])¶
 Like encrypt(), but for decryption.
