@@ -89,9 +89,9 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 
 * "encryption_test.py" file is for teting encrption and decrptions of any data within the IDE
 
-### The "Data_logging_FromPC" file
+### The "Data_logging_FromPC" Directory
 Under this folder you will get three micropython files:
 
 * One file is simply the liberary file i.e, "encropi.py"
 * File 2nd, i.e "data_transfer_to_EncroPi (1).py" is the standard python code file for sending data from our Desktop/laptop to our EncroPi board 
-* The third file(data_save_to_sdcard.py) is the main file for recieving data to our encroPi. This file should save in EncroPi board as "main.py" file before sending any data to it.
+* The third file(data_save_to_sdcard.py) is the main file for recieving data to our encroPi. This file should save in EncroPi board as "main.py" file before sending     any data to it.
