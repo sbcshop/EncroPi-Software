@@ -77,4 +77,8 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 
 <img src="https://github.com/sbcshop/Raspberry-Pi-Pico-RFID-Expansion/blob/main/images/thonny-interpreter.PNG" />
 
-## Steps To Follow for Working with EncroPi:
+## Types of Code files and thier funtioning:
+
+* File "encropi.py" is the liberary file of this board
+* 
+
