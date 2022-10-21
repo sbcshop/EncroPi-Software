@@ -80,8 +80,12 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 ## Types of Code files and thier funtioning:
 
 * File "encropi.py" is the liberary file of this board
+* 
 * The funtion of "encryption_sdcard.py" file is to encrypt the data/file in SD card and store that file in SD card
+* 
 * The function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
+* 
 * The "sdcard_read_write.py" file is for writing any data/file in SD card and Reading data from it
+* 
 * "encryption_test.py" file is for teting encrption and decrptions of any data within the IDE
 
