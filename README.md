@@ -65,7 +65,7 @@ No more worries about losing your data or loading it over and over again every t
 Real-time for your personal computers, embedded systems, servers, or any electronic device that may require accurate time keeping
 
 ## Uploading Firmware 
-* Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded firmware by drag and drop method. Now, your board has updated firmware in it.
+* Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded fimware file (firmware.uf2) and paste it in resapberry pi board or you can also do this by simply drag and drop method. Now, your board has updated firmware in it.
 
 ## Downloading IDE
 * To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
@@ -83,9 +83,15 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 
 * The funtion of "encryption_sdcard.py" file is to encrypt the data/file in SD card and store that file in SD card
 
-* The function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
+* ThData_logging_FromPCe function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
 
 * The "sdcard_read_write.py" file is for writing any data/file in SD card and Reading data from it
 
 * "encryption_test.py" file is for teting encrption and decrptions of any data within the IDE
 
+### The "Data_logging_FromPC" file
+Under this folder you will get three micropython files:
+
+* One file is simply the liberary file i.e, "encropi.py"
+* File 2nd, i.e "data_transfer_to_EncroPi.py" is the standard python code file for sending data from our Desktop/laptop to our EncroPi board 
+* Third file is the main file of recieving data to our encroPi
