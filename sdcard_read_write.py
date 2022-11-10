@@ -9,7 +9,7 @@ vfs = os.VfsFat(sd)
 os.mount(vfs, "/fc")
 print("Filesystem check")
 print(os.listdir("/fc")) # check the files in sd card
-
+fn = "/fc/File.txt"
 print("Single block read/write")
 
 data = "SB COMPONENTS"
