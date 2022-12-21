@@ -97,3 +97,30 @@ Under this folder you will get three micropython files:
 * One file is simply the liberary file i.e, "encropi.py"
 * File 2nd, i.e "data_transfer_to_EncroPi (1).py" is the standard python code file for sending data from our Desktop/laptop to our EncroPi board 
 * The third file(data_save_to_sdcard.py) is the main file for recieving data to our encroPi. This file should save in EncroPi board as "main.py" file before sending     any data to it.
+
+
+## Documentation
+
+* [IoTFi-4G Software](https://github.com/sbcshop/IoTFi_4G_Software)
+* [RaspberryPi PICO Getting Started with Micropython](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
+* [RaspberryPi PICO Official website](https://www.raspberrypi.com/documentation/microcontrollers/)
+* [RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
+* [Raspberry Pi Pico Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+* [RP2040 Hardware Design](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+* [Raspberry Pi Pico Pinout](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+
+## Related Products
+
+* [IoTFi-2G](https://shop.sb-components.co.uk/products/iotfi-2g-4g-iot-board-based-on-rp2040?variant=40430002307155) - Our other GSM Based product in 2G version
+
+ ![IoTFi-2G](https://cdn.shopify.com/s/files/1/1217/2104/products/03_3.png?v=1669123121&width=400)
+
+
+## Product License
+
+This is ***open source*** product. Kindly check LICENSE.md file for more information.
+
+Please contact support@sb-components.co.uk for technical support.
+<p align="center">
+  <img width="360" height="100" src="https://cdn.shopify.com/s/files/1/1217/2104/files/Logo_sb_component_3.png?v=1666086771&width=350">
+</p>
