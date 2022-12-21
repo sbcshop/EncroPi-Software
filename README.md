@@ -101,7 +101,7 @@ Under this folder you will get three micropython files:
 
 ## Documentation
 
-* [IoTFi-4G Software](https://github.com/sbcshop/IoTFi_4G_Software)
+* [EncroPi Hardware](https://github.com/sbcshop/EncroPi-Hardware)
 * [RaspberryPi PICO Getting Started with Micropython](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 * [RaspberryPi PICO Official website](https://www.raspberrypi.com/documentation/microcontrollers/)
 * [RP2040 Datasheet](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html)
