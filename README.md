@@ -97,7 +97,12 @@ Under this folder you will get two micropython files:
 * One file is simply the library file i.e, "Encropi.py". This library is for the code to data transfer between pc and EncroPi, this library have to save in your encropi board before communicating between them.  
 * File 2nd, i.e "data_transfer_to_EncroPi.py" is the standard python code file for sending data from our Desktop/laptop to our EncroPi board 
 
-### The 
+### The "Encryption" directory
+In this directory there are three code files :
+* First one is the Library file for the examples provided in this folder
+* 2nd file is for Encrypting data files from sdcard and store it in sdcard.
+* 3rd file is for encrypting string data within the IDE.
+
 
 ## Documentation
 
