@@ -3,14 +3,14 @@ from ucryptolib import aes
 import random
 import sdcard
 import time
+import EncroPi
 import uos
 import os
 
 MODE_CBC = 2
 BLOCK_SIZE = 16
 
-spi=SPI(0,sck=Pin(18),mosi=Pin(19),miso=Pin(16))
-sd=sdcard.SDCard(spi,Pin(17))
+sd=EncroPi.SDCard()
 
 key = b'this_is_the_key_123456_asdfgh123'
 
