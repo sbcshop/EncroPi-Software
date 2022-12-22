@@ -17,6 +17,6 @@ s = EncroPi.USB()
 s.connect('COM8',9600)
 
 while True:
-    data = input('Enter data to store in sd card = ')
+    data = input('Enter data = ')
     s.transmit_message(data.encode("utf-8")+b'\n\r')
     time.sleep(0.5)
