@@ -95,7 +95,7 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 Under this folder you will get two micropython files:
 
 * One file is simply the library file i.e, "Encropi.py". This library is for the code to data transfer between pc and EncroPi, this library have to save in your encropi board before communicating between them.  
-* File 2nd, i.e "data_transfer_to_EncroPi (1).py" is the standard python code file for sending data from our Desktop/laptop to our EncroPi board 
+* File 2nd, i.e "data_transfer_to_EncroPi.py" is the standard python code file for sending data from our Desktop/laptop to our EncroPi board 
 
 
 ## Documentation
