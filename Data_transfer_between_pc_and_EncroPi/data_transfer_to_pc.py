@@ -152,5 +152,5 @@ class USB(SerialComm):
 while True:
     data = input('Enter data to store in sd card = ')
     s = USB()
-    s.connect('COM8',9600)
+    s.connect('COM8',9600)# write rour encropi port and baudrate
     s.transmit_message(data.encode("utf-8")+b'\n\r')
