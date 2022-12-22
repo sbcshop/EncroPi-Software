@@ -303,7 +303,7 @@ class RTC(object):
         i = t[0] << 8 | t[1]  
         return self._twos_complement(i >> 6, 10) * 0.25
 
-       class USB(SerialComm):
+class USB(SerialComm):
     def __init__(self):
         SerialComm.__init__(self)
     def connect(self, port, baud_rate):
