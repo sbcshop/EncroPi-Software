@@ -85,7 +85,7 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 
 * The funtion of "encryption_sdcard.py" file is to encrypt the data/file in SD card and store that file in SD card
 
-* ThData_logging_FromPCe function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
+* The function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
 
 * The "sdcard_read_write.py" file is for writing any data/file in SD card and Reading data from it
 
