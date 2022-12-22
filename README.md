@@ -81,7 +81,7 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 
 ## Types of Code files and their functioning:
 
-* File "encropi.py" is the liberary file of this board
+* File "EncroPi.py" is the liberary file of this board
 
 * The funtion of "encryption_sdcard.py" file is to encrypt the data/file in SD card and store that file in SD card
 
