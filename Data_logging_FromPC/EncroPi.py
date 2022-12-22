@@ -302,3 +302,18 @@ class RTC(object):
         t = self.bus.readfrom_mem(self.address, 0x11, 2)  
         i = t[0] << 8 | t[1]  
         return self._twos_complement(i >> 6, 10) * 0.25
+
+       class USB(SerialComm):
+    def __init__(self):
+        SerialComm.__init__(self)
+    def connect(self, port, baud_rate):
+        self.connect_port(port=port, baud_rate=baud_rate, timeout=0.5)
+
+    def disconnect(self):
+        self.disconnect()
+
+    def transmit_message(self, data):
+        self.write(data)
+
+    def set_variables(self):
+        pass
