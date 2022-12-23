@@ -114,9 +114,9 @@ In this directory there are three code files :
 
 ## Related Products
 
-* [IoTFi-2G](https://shop.sb-components.co.uk/products/iotfi-2g-4g-iot-board-based-on-rp2040?variant=40430002307155) - Our other GSM Based product in 2G version
+* [SquaryPi](https://shop.sb-components.co.uk/products/squary?variant=40443840921683)
 
- ![IoTFi-2G](https://cdn.shopify.com/s/files/1/1217/2104/products/03_3.png?v=1669123121&width=400)
+ ![SquaryPi](https://cdn.shopify.com/s/files/1/1217/2104/products/1_5874b3b5-2a2f-453e-bf54-abbf2a26acb9.png?v=1670307456&width=400)
 
 
 ## Product License
