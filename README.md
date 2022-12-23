@@ -83,13 +83,11 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 
 * File "EncroPi.py" is the liberary file of this board
 
-* The funtion of "encryption_sdcard.py" file is to encrypt the data/file in SD card and store that file in SD card
-
 * The "data_save_to_sdcard.py" file is for writing any data/file in SD card and Reading data from it
 
 * The function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
 
-* "encryption_test.py" file is for teting encrption and decrptions of any data within the IDE
+* "rtc_test.py" file is for using the RTC function of this board.
 
 ### The "Data_transfer_between_pc_and_EncroPi" Directory
 Under this folder you will get two micropython files:
