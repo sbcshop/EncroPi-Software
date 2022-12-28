@@ -84,8 +84,6 @@ Real-time for your personal computers, embedded systems, servers, or any electro
      <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img19.png" />
      <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img20.png" />
     
-<img src ="https://github.com/sbcshop/EncroPi/blob/main/images/Screenshot%20(29).png" />
-
 ## Downloading IDE
 * To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
 *  https://thonny.org/
