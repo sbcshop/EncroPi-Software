@@ -117,7 +117,17 @@ In this directory there are three code files :
 * 2nd file is for Encrypting data files from sdcard and store it in sdcard.
 * 3rd file is for encrypting string data within the IDE.
 
+### Display Images
+Now, open the folder Display_Images, inside this folder their is sub-folder one is ***Display_Images from PC and another one is Dispaly images from SDCard*** folder.
 
+ * **Display Images from PC** -> For display images in EncroPi we use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2").   
+You can also display your custom images, for this you need to go "images" folder and save your images by changing its formate and resolution according to lcd display.
+You can online convert any image to BMP image (the size must be 240x240), i a websie below(there are various website)
+https://image.online-convert.com/convert-to-bmp
+Now, you need to run the pyhton code file provided in this folder.
+    
+  * **Display Images From SD Card** -> For this, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2"). 
+ Now, follow all the process of **Display Images from PC**,you only have to simply save the images containing in this directory (Do not save images in any directory when storing in SDCard). Finally, run the python code provided in this directory.
 
 
 ## Documentation
