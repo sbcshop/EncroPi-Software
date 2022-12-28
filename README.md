@@ -9,7 +9,7 @@ It is an innovative and highly efficient USB RTC stick based on the Raspberry Pi
 ### RP2040
 Raspberry Pi RP2040 Microcontroller Chip is the debut microcontroller from Raspberry Pi. It brings high performance, low cost, and ease of use to the microcontroller space. The RP2040 has a large on-chip memory, symmetric dual-core processor complex, deterministic bus fabric, and rich peripheral set. It's augmented with a unique Programmable I/O (PIO) subsystem and provides unrivaled power and flexibility.
 ### DS3231(RTC)
-IT is a Real time clock IC that has very low-power consumption, a digital temperature sensor, and two-time day alarms. Its operating voltage is 2.3V-5.5V. 
+It is a Real time clock IC that has very low-power consumption, a digital temperature sensor, and two-time day alarms. Its operating voltage is 2.3V-5.5V. 
 ### SD Card Slot
 It is provided for storing data in your SD card that you want to run.
 ### Battery Holder
