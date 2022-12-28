@@ -146,6 +146,9 @@ Now, you need to run the pyhton code file provided in this folder (i.e, images_d
 
  ![SquaryPi](https://cdn.shopify.com/s/files/1/1217/2104/products/1_5874b3b5-2a2f-453e-bf54-abbf2a26acb9.png?v=1670307456&width=400)
 
+* [USB RTC](https://shop.sb-components.co.uk/products/usb-rtc-for-raspberry-pi-1?_pos=1&_sid=b93d6138a&_ss=r)
+
+ ![USB RTC](https://cdn.shopify.com/s/files/1/1217/2104/products/3_211d5991-c671-4c67-a336-e60faa793cfd.jpg?v=1665636609&width=400)
 
 ## Product License
 
