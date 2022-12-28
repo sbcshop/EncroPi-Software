@@ -66,10 +66,14 @@ No more worries about losing your data or loading it over and over again every t
 #### RTC:
 Real-time for your personal computers, embedded systems, servers, or any electronic device that may require accurate time keeping
 
-## Uploading Firmware 
+### Uploading Firmware 
 * Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded fimware file(firmware.uf2) from this repository and paste it in resapberry pi board or you can also do this by simply drag and drop method. Now, your board has updated firmware in it.
 
 <img src ="https://github.com/sbcshop/EncroPi/blob/main/images/Screenshot%20(29).png" />
+
+### Installing CircuitPython
+* In EncroPi, insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2"). for this first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file "adafruit-circuitpython- raspberry_pi_pico-en_US-7.1.1.uf2" to this device as shown in figure: this is the official website, or yoy can download from here https://circuitpython.org/board/raspberry_pi_pico/
+
 
 ## Downloading IDE
 * To open upython(.py) files you should have Thonny IDE installed in your system, If you don’t have Thonny IDE follow the link below to install it
