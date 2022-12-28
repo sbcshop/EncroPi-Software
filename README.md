@@ -66,7 +66,7 @@ No more worries about losing your data or loading it over and over again every t
 #### RTC:
 Real-time for your personal computers, embedded systems, servers, or any electronic device that may require accurate time keeping
 
-### Uploading Mcropython Firmware 
+### Uploading Micropython Firmware 
 * Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded fimware file(firmware.uf2) from this repository and paste it in resapberry pi board or you can also do this by simply drag and drop method. Now, your board has updated firmware in it.
 
 <img src ="https://github.com/sbcshop/EncroPi/blob/main/images/Screenshot%20(29).png" />
