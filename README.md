@@ -74,6 +74,16 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 ### Installing CircuitPython Firmware
 * For using the ***Image Display*** functionality in EncroPi, insert the circuit python to the roundypi(it is circuit python firmware ***adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2***). for this first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file "adafruit-circuitpython- raspberry_pi_pico-en_US-7.1.1.uf2" to this device as shown in figure: this is the official website, or yoy can download from here https://circuitpython.org/board/raspberry_pi_pico/
 
+
+ <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" />  
+     When you properly insert the circuitpython then you see a new device that looks like the below image:-
+     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img11.png" />
+     
+ After this go to run->select interpreter,choose device and port
+     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img18.png" />
+     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img19.png" />
+     <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img20.png" />
+    
 <img src ="https://github.com/sbcshop/EncroPi/blob/main/images/Screenshot%20(29).png" />
 
 ## Downloading IDE
