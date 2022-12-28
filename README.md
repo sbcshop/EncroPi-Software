@@ -71,12 +71,12 @@ Real-time for your personal computers, embedded systems, servers, or any electro
 *  https://thonny.org/
 
 ### Uploading Micropython Firmware 
-* Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded fimware file(firmware.uf2) from this repository and paste it in resapberry pi board or you can also do this by simply drag and drop method. Now, your board has updated firmware in it.
+* Hold Boot Button and plug-in in your system after that release Boot button, you will get pop-up window of showing RaspberryPi as a mass storage device. Copy the downloaded firmware file(firmware.uf2) from this repository and paste it in the raspberry pi board or you can also do this by simply drag and drop method. Now, your board has updated firmware in it.
 
 <img src ="https://github.com/sbcshop/EncroPi/blob/main/images/Screenshot%20(29).png" />
 
 ### Installing CircuitPython Firmware
-* For using the ***Image Display*** functionality in EncroPi, insert the circuit python to the EncroPi(it is circuit python firmware ***adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2***). for this first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file "adafruit-circuitpython- raspberry_pi_pico-en_US-7.1.1.uf2" to this device as shown in figure: this is the official website, or yoy can download from here https://circuitpython.org/board/raspberry_pi_pico/
+* For using the ***Image Display*** functionality in EncroPi, insert the circuit python to the EncroPi(it is circuit python firmware ***adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2***). for this first you need to press the boot button then connect the USB, don,t release the button until you connect the USB to the laptop. then you see a new device named "RPI-RP2" drag this file "adafruit-circuitpython- raspberry_pi_pico-en_US-7.1.1.uf2" to this device as shown in figure: this is the official website, or you can download from here https://circuitpython.org/board/raspberry_pi_pico/
 
 
  <img src= "https://github.com/sbcshop/RoundyPi/blob/main/images/img13.png" />  
@@ -97,11 +97,11 @@ After this go to run->select interpreter,choose device and port
 
 ## Types of Code files and their functioning:
 
-* File "EncroPi.py" is the liberary file of this board
+* File "EncroPi.py" is the library file of this board
 
 * The "data_save_to_sdcard.py" file is for writing any data/file in SD card and Reading data from it
 
-* The function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing extrernal I/o devices
+* The function of "gpio_test.py" file is to work with Additional GPIO pins for interfacing external I/o devices
 
 * "rtc_test.py" file is for using the RTC function of this board.
 
@@ -118,13 +118,13 @@ In this directory there are three code files :
 * 3rd file is for encrypting string data within the IDE.
 
 ### Display Images
-Now, open the folder Display_Images, inside this folder their is sub-folder one is ***Display_Images from PC and another one is Dispaly images from SDCard*** folder.
+Now, open the folder Display_Images, inside this folder their is sub-folder one is ***Display_Images from PC and another one is Display images from SDCard*** folder.
 
  * **Display Images from PC** -> For display images in EncroPi we use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2").   
 You can also display your custom images, for this you need to go "images" folder and save your images by changing its formate and resolution according to lcd display.
-You can online convert any image to BMP image (the size must be 240x240), i a websie below(there are various website)
+You can online convert any image to BMP image (the size must be 240x240), i a website below(there are various website)
 https://image.online-convert.com/convert-to-bmp
-Now, you need to run the pyhton code file provided in this folder (i.e, images_display.py).
+Now, you need to run the python code file provided in this folder (i.e, images_display.py).
     
   * **Display Images From SD Card** -> For this, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2"). 
  Now, follow all the process of **Display Images from PC**,you only have to simply save the images containing in this directory (Do not save images in any directory when storing in SDCard). Finally, run the python code provided in this directory (i.e, display_image_sdcard_circuitpython.py)
