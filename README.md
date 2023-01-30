@@ -122,7 +122,7 @@ Now, open the folder Display_Images, inside this folder their is sub-folder one 
 
  * **Display Images from PC** -> For display images in EncroPi we use CircuitPython because it is very easy, it is developed by adafruit industries, First of all, we need to insert the circuit python to the roundypi(it is circuit python firmware "adafruit-circuitpython-raspberry_pi_pico-en_US-7.1.1.uf2").   
 You can also display your custom images, for this you need to go "images" folder and save your images by changing its formate and resolution according to lcd display.
-You can online convert any image to BMP image (the size must be 240x240), i a website below(there are various website)
+You can online convert any image to BMP image (the size must be 240x135), i a website below(there are various website)
 https://image.online-convert.com/convert-to-bmp
 Now, you need to run the python code file provided in this folder (i.e, images_display.py).
     
