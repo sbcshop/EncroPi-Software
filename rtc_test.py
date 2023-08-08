@@ -35,6 +35,6 @@ import EncroPi
 
 rtc = EncroPi.RTC()
 print(rtc.read_time())
-rtc.set_time('12:24:00,Thursday,2022-10-20') # set time, after setting time uncomment this line 
+rtc.set_time('12:24:00,Thursday,2022-10-20') # set time, after setting time comment this line 
 print(rtc.temperature())
 
